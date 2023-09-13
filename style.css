@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+     height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+#main{
+    text-align: center;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.div1 > div{
+    background: linear-gradient(45deg, black, red, black);
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 500px;
+    padding: 5px;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+
+.div2{
+   margin: 20px;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    border-radius: 20px;
+}
+.div4 h2{
+    background: linear-gradient(45deg, black, red, black);
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 500px;
+    padding: 5px;
+}
+.burger{
+    display: flex;
+    justify-content: center;
+}
+
+.div4 p{
+    margin: 20px;
+}
+
+.div5{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.Drinks{
+    display: flex;
+    justify-content: center;
+}
+
+.Drinks > h2{
+    background: linear-gradient(45deg, black, red, black);
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 500px;
+    padding: 5px;
+    
+}
+
+ .div6 p{
+    margin: 20px;
+}
+
+.div7{
+    display: flex;
+    justify-content: space-evenly;
+}
